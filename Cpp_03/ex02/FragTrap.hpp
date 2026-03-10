@@ -24,7 +24,7 @@
 	~FragTrap();
 
 	void	attack(const std::string &target);
-	void	highFiveGuys(void);
+	void	highFivesGuys(void);
 };
 
 #endif
