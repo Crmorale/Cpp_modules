@@ -61,6 +61,6 @@ void	FragTrap::attack(const std::string &target) {
 		std::cout	<< "FragTrap " << this->_name << " could not attack." << std::endl;
 }
 
-void	FragTrap::highFiveGuys(void) {
-	std::cout << "Heeey, let´s high five guys!" << std::endl;
+void	FragTrap::highFivesGuys(void) {
+	std::cout << "Heeey, let´s high fives guys!" << std::endl;
 }
