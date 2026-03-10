@@ -31,7 +31,7 @@ int main() {
 	scav.attack("Scavy");
 	scav.attack("Fraggy");
 	frag.takeDamage(20);
-	frag.highFiveGuys();
+	frag.highFivesGuys();
 	frag.attack("Scavy");
 	scav.takeDamage(30);
 	scav.takeDamage(1000);
