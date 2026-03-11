@@ -16,7 +16,6 @@
 #include <iostream>
 
 int main() {
-    // Test básico
     const Animal* first = new Animal();
     const Animal* j = new Dog();
     const Animal* i = new Cat();
