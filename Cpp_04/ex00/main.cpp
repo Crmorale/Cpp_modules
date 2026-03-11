@@ -17,18 +17,18 @@
 
 int main() {
     // Test básico
-    const Animal* meta = new Animal();
+    const Animal* first = new Animal();
     const Animal* j = new Dog();
     const Animal* i = new Cat();
     
     std::cout << j->getType() << " " << std::endl;
     std::cout << i->getType() << " " << std::endl;
     
-    i->makeSound();  // Debe imprimir sonido de gato
-    j->makeSound();  // Debe imprimir sonido de perro
+    i->makeSound();
+    j->makeSound();
     meta->makeSound();
     
-    delete meta;
+    delete first;
     delete j;
     delete i;
     
